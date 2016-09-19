@@ -138,6 +138,14 @@ Renderer.prototype.toHtml = function() {
 		}
 	};
 
+	/** escape close function */
+	window.onkeydown = function(event) {
+		if (event.keyCode == 27) {
+			modalContainer.style.display = "none";
+			body.removeChild(modalContainer);
+		}
+	};
+
 	/** close button click function */
 	modalClose.onclick = function () {
 		modalContainer.style.display = "none";
