@@ -14,3 +14,4 @@ Elfogadási kritériumok:
 -	Semmilyen külső JS vagy CSS könyvtárat nem lehet felhasználni
 
 Jó szórakozást!
+
